@@ -888,18 +888,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlideshowManager
   slideImage: {fileID: 255205498}
-  dialogueBox: {fileID: 1315765469}
   dialogueText: {fileID: 1364100902}
+  dialogueBox: {fileID: 1315765469}
   slides:
   - {fileID: 21300000, guid: a88d22ae579afe444a00348d0e54d71f, type: 3}
   - {fileID: 21300000, guid: b9892e5a1c135a741ac241adb1fdecca, type: 3}
+  - {fileID: 21300000, guid: cf887e987a3147e47afee6f932f2cabb, type: 3}
+  - {fileID: 21300000, guid: e18718edbcdb8734fa46acb19c84ae09, type: 3}
   - {fileID: 21300000, guid: 02da1086eb047ab4d852f577e806eef6, type: 3}
   - {fileID: 21300000, guid: 47fff29dbf7fc6c43a3a772c3573687c, type: 3}
   dialogues:
-  - Text test 1
-  - Text test 2
-  - Text test 3
-  - Text test 4
+  - "In the countryside town of Arcadia Valley, where you, Asther, reside with your
+    family who own acres of land dedicated to farming. |For as long as you can remember,
+    you\u2019ve been raised to uphold the family tradition and be a farmer. |There
+    is only one issue though\u2014You do not want to be a farmer.  "
+  - "From childhood, you have been good friends with the neighbor that is just a
+    few blocks away; Tiffany. |You and Tiffany bond over taking care of her pet animals,
+    for she owns many in her home. You can\u2019t help but feel envious of her at
+    times, being able to follow in her mother\u2019s footsteps with genuine passion. "
+  - "One morning while picking up the crops, as you try to grab the next roll of
+    cabbage, something is particularly strange about this one\u2026 "
+  - "Tiffany assists you and introduces you into the ways of taking care of pets.
+    You both realize that this bunny possess both the needs of a garden crop and
+    a bunny at the same time. |You and Tiffany decide to declare it as a \u201CGarden
+    Bunny\u201D and even decide to name it \u201CMomo\u201D. |From here on out, you
+    and Tiffany decide to take care of it at her home.  You notice Momo starting
+    to act strange. It seems to be more withdrawn and distressed, contrary to its
+    usual state."
+  - "Then, all of a sudden, Momo decides to run blocks away into your family\u2019s
+    farm where you discover a strange passage amidst the tall grass. As you go on
+    the environment starts to change little by little"
+  - You and Tiffany are confused but you both decide to proceed with caution.
+  imageFadeDuration: 0.5
+  typeSound: {fileID: 0}
 --- !u!4 &1003392822
 Transform:
   m_ObjectHideFlags: 0
@@ -1215,11 +1236,11 @@ MonoBehaviour:
   m_verticalMapping: 0
   m_uvLineOffset: 0
   m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
+  m_IsTextObjectScaleStatic: 1
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -284.1325, y: -43.09375, z: -320.02374, w: -55.25}
+  m_margin: {x: -284.1325, y: -47.700485, z: -324.38702, w: -69.69502}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
